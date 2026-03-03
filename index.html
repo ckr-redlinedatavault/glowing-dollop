@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhasha Media | Launching</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="curtain-wrapper" id="curtain">
+        <div class="curtain-left"></div>
+        <div class="curtain-right"></div>
+    </div>
+    <div class="background-overlay"></div>
+    <main class="main-grid">
+        <div class="hero-info">
+            <header class="logo-section">
+                <h1 class="brand-name">DHASHA <span>MEDIA</span></h1>
+                <div class="separator"></div>
+                <p class="tagline">#1 Media Agency & Creator Ecosystem</p>
+            </header>
+
+            <div class="manifesto">
+                <p>Where creativity meets strategy. We are the ecosystem for the world's most ambitious visionaries.</p>
+            </div>
+
+            <div class="attribution">
+                <span class="label">LAUNCH BY</span>
+                <h3 class="name">Lakshmi Manchu Garu</h3>
+                <p class="role">Indian actress and film producer</p>
+            </div>
+        </div>
+
+        <div class="launcher-panel">
+            <div class="glass-card" id="launcher-card">
+                <div id="initial-view">
+                    <span class="status-indicator">SYSTEM READY</span>
+                    <h2>Studio Access</h2>
+
+                    <div class="card-attribution">
+                        <span class="attrib-label">LAUNCH BY</span>
+                        <h3 class="attrib-name">Lakshmi Manchu Garu</h3>
+                        <p class="attrib-role">Indian actress and film producer</p>
+                    </div>
+
+                    <p>Enter the ecosystem to begin your creative journey.</p>
+                    <button id="launch-btn" class="primary-btn">
+                        <span>LAUNCH STUDIO</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x21="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </button>
+                </div>
+
+                <div id="countdown-view" class="hidden">
+                    <div class="timer-wrapper">
+                        <svg class="progress-ring" width="120" height="120">
+                            <circle class="progress-ring__track" stroke="rgba(218, 194, 145, 0.1)" stroke-width="2"
+                                fill="transparent" r="54" cx="60" cy="60" />
+                            <circle class="progress-ring__circle" stroke="white" stroke-width="4" fill="transparent"
+                                r="54" cx="60" cy="60" />
+                        </svg>
+                        <span id="timer-text">10</span>
+                    </div>
+                    <h3>SYNCHRONIZING</h3>
+                    <p>Establishing secure link to Dhasha Network...</p>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer-bar">
+            <span>EST. 2024</span>
+            <div class="footer-divider"></div>
+            <span>&copy; 2026 DHASHA MEDIA</span>
+            <div class="footer-divider"></div>
+            <span>ALL RIGHTS RESERVED</span>
+        </footer>
+    </main>
+    <script src="lib/confetti.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
